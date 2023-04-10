@@ -1,0 +1,59 @@
+/* desain styling secara keseluruhan */
+
+h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.form-container {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+}
+
+input[type="text"] {
+  max-width: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: none;
+  font-family: "Raleway SemiBold", sans-serif;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+}
+
+form table input[type="submit"] {
+  display: block;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: Raleway SemiBold, sans-serif;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+form table input[type="submit"]:hover {
+  background-color: darksalmon !important;
+  transition: 0.5s all !important;
+  cursor: pointer;
+}
